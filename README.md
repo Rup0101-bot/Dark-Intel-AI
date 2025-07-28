@@ -1,7 +1,7 @@
 # Dark-Intel-AI
 Dark-Intel-AI: Advanced dark web intelligence system for law enforcement. Features automated Tor-based data collection, real-time AI analysis via Groq LLM, parallel crawling, OCR processing, and interactive chat interface. Includes bundled Tor, SQLite storage, visual correlation diagrams. Restricted to authorized agencies only.
 
-![image alt]()
+![image alt](https://raw.githubusercontent.com/Rup0101-bot/Dark-Intel-AI/1333624850f51d6bd66b2649259ebc77101ba702/Dark_Intel_AI.png)
 
 # Dark Intel AI: Advanced Dark Web Intelligence Collection & Analysis System
 
