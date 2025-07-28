@@ -5,12 +5,12 @@ Dark-Intel-AI: Advanced dark web intelligence system for law enforcement. Featur
 
 ## Project Overview
 
-**DarkBert** is a sophisticated dark web intelligence collection and analysis system designed exclusively for law enforcement agencies and authorized personnel. This comprehensive Python-based tool combines automated dark web data collection, real-time LLM-powered analysis, and advanced correlation capabilities to provide actionable intelligence from the dark web.
+**Dark Intel AI** is a sophisticated dark web intelligence collection and analysis system designed exclusively for law enforcement agencies and authorized personnel. This comprehensive Python-based tool combines automated dark web data collection, real-time LLM-powered analysis, and advanced correlation capabilities to provide actionable intelligence from the dark web.
 
 ## Core Capabilities
 
 ### 1. **Dark Web Data Collection Engine**
-- **Multi-Engine Search**: Automatically discovers and utilizes multiple onion search engines through Ahmia.fi integration
+- **Multi-Engine Search**: Automatically discovers and utilizes multiple onion search engines through Ahmia.fi and extra top 10 search engines integration
 - **Tor Integration**: Includes bundled Tor Expert Bundle (Windows x86_64-14.5.4) for seamless dark web access
 - **Parallel Crawling**: High-performance parallel crawling of search engines and subpages using ThreadPoolExecutor
 - **Deep Site Crawling**: Recursive crawling of onion sites up to configurable depth levels
@@ -18,7 +18,7 @@ Dark-Intel-AI: Advanced dark web intelligence system for law enforcement. Featur
 - **Smart Query Processing**: Supports both user-defined queries and AI-generated random topics
 
 ### 2. **Real-Time LLM Intelligence Analysis**
-- **Groq LLM Integration**: Powered by Llama3-70b-8192 and Llama3-8b-8192 models for advanced analysis
+- **LLM Integration**: Powered by Llama3-70b-8192 and Llama3-8b-8192 models for advanced analysis
 - **Live Data Processing**: Continuous crawling with real-time LLM summarization and correlation
 - **Conversational AI Interface**: Interactive chatbot that combines live dark web data with LLM intelligence
 - **Query Expansion**: AI-powered query expansion for comprehensive data discovery
@@ -48,8 +48,8 @@ Dark-Intel-AI: Advanced dark web intelligence system for law enforcement. Featur
 4. **[`conversational_llm_chat.py`](DarkBert/darkweb_ai/conversational_llm_chat.py:1)** - Advanced conversational AI chatbot
 5. **[`onion_utils.py`](DarkBert/darkweb_ai/onion_utils.py:1)** - Tor proxy utilities and onion site handling
 6. **[`db_utils.py`](DarkBert/darkweb_ai/db_utils.py:1)** - Database initialization and management
-7. **[`ahmia_utils.py`](DarkBert/darkweb_ai/ahmia_utils.py:1)** - Ahmia.fi integration for search engine discovery
-8. **[`gorq_llm_utils.py`](DarkBert/darkweb_ai/gorq_llm_utils.py:1)** - Groq LLM API integration utilities
+7. **[`ahmia_utils.py`](DarkBert/darkweb_ai/ahmia_utils.py:1)** - Ahmia.fi and others engines integration for search engine discovery
+8. **[`gorq_llm_utils.py`](DarkBert/darkweb_ai/gorq_llm_utils.py:1)** - LLM API integration utilities
 
 ### **Key Features**
 
